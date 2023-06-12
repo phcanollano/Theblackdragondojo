@@ -262,6 +262,12 @@ p {
         margin-left: 2%;
         text-align: justify;
     }
+
+    .uiama {
+        width: 350px;
+        height: 200px;
+        text-align: center;
+    }
 }
 
 .flex2 {
