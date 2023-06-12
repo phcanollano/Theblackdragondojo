@@ -390,7 +390,9 @@ p {
 }
 
 
-
+.carousel, .carousel-item > .item > img {
+    text-align: center;
+   }
 
 
 @media (max-width: 576px){
