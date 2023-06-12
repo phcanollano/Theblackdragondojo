@@ -242,6 +242,13 @@ p {
     text-align: justify;
 }
 
+.uiama {
+    width: 450px;
+    height: 350px;
+    text-align: center;
+}
+
+
 @media (max-width: 576px) {
 
     .p,
@@ -337,12 +344,10 @@ p {
 }
 
 .lugar {
-    width: 200px;
-    height: 230px;
-    margin-right: 10px;   
+    width: 350px;
+    height: 400px; 
+   
 }
-
-
 
 
 .horario {
@@ -387,6 +392,7 @@ p {
 
 
 
+
 @media (max-width: 576px){
 .fotosuiama,fotosuiama {
    display: none;
@@ -394,7 +400,9 @@ p {
 }
 
 
-
+.carousel, .carousel-item > .item > img {
+   text-align: center;
+  }
 
 
 .map {

@@ -6060,6 +6060,7 @@ textarea.form-control-lg {
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
+  
 }
 
 .carousel-item-next:not(.carousel-item-start),
@@ -6234,7 +6235,7 @@ textarea.form-control-lg {
   background-color: #000;
 }
 [data-bs-theme=dark] .carousel .carousel-caption, [data-bs-theme=dark].carousel .carousel-caption {
-  color: #000;
+  color: #020202;
 }
 
 .spinner-grow,
