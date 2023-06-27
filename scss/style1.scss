@@ -10,9 +10,8 @@
     border: 1px solid white
 }
 
-.logo,
-logo {
-    height: 200px;
+.logo {
+    height: 240px;
     width: 100%;
     margin-top: 10px;
 
@@ -447,6 +446,29 @@ p {
         flex-direction: row;
     }
 }
+
+.button {
+	width:100px;
+	height:40px;
+	text-align:center;
+	border: 3px solid rgb(255, 255, 255);
+}
+
+.button--enviar{
+	@extend .button;
+	background-color:rgb(0, 0, 0);
+	color:rgb(255, 255, 255);
+}
+
+
+.button--cancelar{
+	@extend .button;
+	background-color:rgb(243, 243, 243);
+	color:rgb(0, 0, 0);
+    border: 3px solid #131313;
+}
+
+
 
 .map {
     text-align: center;
