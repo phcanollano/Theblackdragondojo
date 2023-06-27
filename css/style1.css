@@ -100,11 +100,11 @@ h1 {
   margin-right: 5px;
 }
 .flex1 .box {
-  background-color: rgba(214, 15, 15, 0.911);
   width: 400px;
   height: 250px;
   margin: 10px;
   text-align: center;
+  background-color: rgba(214, 15, 15, 0.911);
   border: 1px solid white;
 }
 .flex1 .box .pbox {
@@ -126,11 +126,11 @@ h1 {
   .flex1 box,
   flex1 .box,
   flex1 box {
-    background-color: rgba(214, 15, 15, 0.911);
     width: 350px;
     height: 240px;
     margin: 10px;
     text-align: center;
+    background-color: rgba(214, 15, 15, 0.911);
     border: 1px solid white;
   }
   .flex1 .boxindex,
@@ -160,13 +160,13 @@ h1 {
   margin-left: 2%;
 }
 .boxopiniones1 .opiniones {
-  background-color: rgba(214, 15, 15, 0.911);
   margin-top: 3%;
   margin-left: 2%;
   margin-right: 2%;
   width: 550px;
   height: 90px;
   font-size: large;
+  background-color: rgba(214, 15, 15, 0.911);
   border: 1px solid white;
 }
 
@@ -182,13 +182,13 @@ h1 {
   .boxopiniones1 opiniones,
   boxopiniones1 .opiniones,
   boxopiniones1 opiniones {
-    background-color: rgba(214, 15, 15, 0.911);
     margin-top: 3%;
     margin-left: 1%;
     margin-bottom: 5%;
     width: 350px;
     height: 110px;
     font-size: large;
+    background-color: rgba(214, 15, 15, 0.911);
     border: 1px solid white;
   }
   .boxopiniones1 .opiniones .perfil,
@@ -265,13 +265,13 @@ p {
   font-size: 15px;
 }
 .flex2 .model {
-  background-color: rgba(214, 15, 15, 0.911);
   margin-top: 3%;
   margin-left: 5%;
   width: 230px;
   height: 280px;
   font-size: x-large;
   text-align: center;
+  background-color: rgba(214, 15, 15, 0.911);
   border: 1px solid white;
 }
 
@@ -283,7 +283,6 @@ p {
     justify-content: center;
   }
   .model {
-    background-color: rgba(214, 15, 15, 0.911);
     margin-top: 3%;
     margin-left: 100px;
     margin-bottom: 10%;
@@ -291,6 +290,7 @@ p {
     height: 220px;
     font-size: x-large;
     text-align: center;
+    background-color: rgba(214, 15, 15, 0.911);
     border: 1px solid white;
   }
   .txttienda {
@@ -366,7 +366,7 @@ p {
   width: 310px;
   padding: 20px;
   margin: auto;
-  background-color: #9e0f0f;
+  background-color: rgba(214, 15, 15, 0.911);
   border: 1px solid white;
 }
 .form .form1 {
@@ -435,7 +435,7 @@ p {
     width: 250px;
     padding: 20px;
     margin: auto;
-    background-color: #9e0f0f;
+    background-color: rgba(214, 15, 15, 0.911);
     border: 1px solid white;
   }
   .form1,

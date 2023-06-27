@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Black Dragon dojo</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
 
     <l<link rel="stylesheet" href="./css/bootstrap.min.css">
 
         <link rel="stylesheet" href="./css/style1.css">
 
+       
         
-
-
-
 </head>
 
 <body class="body">
@@ -42,15 +42,17 @@
 
     <main>
 
-        <h1>Sobre The Black Dragon</h1>
+        <div data-aos="zoom-in"><h1>Sobre The Black Dragon</h1></div>
+        <div data-aos="zoom-in-up">
         <p> The Black Dragon es un Dojo ubicado en Remedios de Escalada, provincia de Buenos Aires, donde vas a
             encontrar un lugar donde sentirte cómodo aprendiendo artes marciales como Kickboxing y Boxeo también
             contamos con horarios de entrenamiento funcional, nuestra principal premisa es la de brindar a nuestros
             alumnos la posibilidad de entrenar en un lugar donde abunde el respeto y la cordialidad.</p>
         <p>En nuestro Dojo también vas a encontrar la posibilidad de competir en la disciplina que elijas, entrenar
             en clases grupales, clases en grupos mas reducidos y también individuales personalizadas.</p>
-
+        </div>
         <Section>
+            <div data-aos="zoom-in">
             <div class="flex1">
                 <div class="box">
                     <a href="./pages/uiama.html" class="txtref">
@@ -75,8 +77,11 @@
                 </div>
 
             </div>
+        </div>
 
         </Section>
+        <div data-aos="zoom-in">
+    
         <div class="boxopiniones1">
             <div class="opiniones">
                 <img src="./images/guante opiniones.jpg" alt="Persona" class="perfil">
@@ -107,6 +112,7 @@
                 <p>Es un gran lugar para entrenar, seas principiante o no en las artes marciales. </p>
             </div>
         </div>
+    </div>
 
 
     </main>
@@ -142,7 +148,14 @@
 
         </footer>
 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+
         <script src="./js/bootstrap.min.js"></script>
+
+       
 
 </body>
 
