@@ -54,7 +54,7 @@ body {
 .footer,
 footer {
   background-image: url(../images/metal.jpg);
-  background-size: 100%;
+  width: 100%;
 }
 .footer .derechos,
 .footer derechos,
@@ -480,6 +480,21 @@ p {
     margin: 8px 0;
     resize: none;
     display: block;
+  }
+  .button, .button--enviar, .button--cancelar {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+  }
+  .button--enviar {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .button--cancelar {
+    background-color: rgb(243, 243, 243);
+    color: rgb(0, 0, 0);
+    border: 3px solid #131313;
   }
   .input,
   input {
