@@ -1,3 +1,9 @@
+/*variables*/
+$ColorPrincipal: rgb(0, 0, 0);
+$ColorSecundario: rgb(201, 34, 34);
+$FuenteTitulo:  50px;
+$FuenteTexto: 20px;
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +12,7 @@
 
 
 @mixin background-flex {
-    background-color: rgb(214, 15, 15, 0.911);
+    background-color: $ColorSecundario;
     border: 1px solid white
 }
 
@@ -29,21 +35,20 @@ ul {
 }
 
 li {
-    background-color: #db1e1e;
+    background-color: $ColorSecundario;
+    border: 2px solid #f5f5f5;
     display: inline;
     margin-right: 10px;
 
-    .hover:hover {
-        background-color: #fffafa;
-        color: red;
-        border: 2px #ebebeb;
+    &:hover {
+        background-color: $ColorPrincipal;
         transition: background-color 0.1s;
         box-shadow: 5px 5px 10px #c72424;
     }
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color: rgb(240, 240, 240);
     padding: 0 4px;
     text-decoration: none;
 }
@@ -61,14 +66,14 @@ a {
 
 .body,
 body {
-    background-color: rgb(5, 5, 5);
+    background-color: $ColorPrincipal;
 }
 
 
 
 .footer,
 footer {
-    background-color: #bb0c0c;
+    background-color: $ColorSecundario;
     
 }
     
@@ -85,7 +90,7 @@ h1 {
     font-weight: bold;
     margin-top: 4%;
     margin-bottom: 3%;
-    font-size: 3rem;
+    font-size: $FuenteTitulo;
     text-align: center;
     
 }
@@ -236,7 +241,7 @@ p {
     margin-bottom: 2%;
     margin-right: 30px;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: $FuenteTexto;
     text-align: justify;
 }
 
@@ -300,6 +305,19 @@ p {
         text-align: center;
         @include background-flex;
     }
+
+    .menu1 {
+        background-color: $ColorPrincipal;
+        border: #ffffff 2px solid;
+        display: inline;
+        margin-right: 3px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        &:hover {
+            transition: background-color 0.1s;
+            box-shadow: 5px 5px 10px #141414;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -337,14 +355,7 @@ p {
 
 }
 
-.menu1 {
-    background-color: #131313;
-    border: #ffffff 2px solid;
-    display: inline;
-    margin-right: 3px;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .lugar {
     width: 350px;
@@ -458,11 +469,9 @@ p {
 
 .enviar{
 	@extend .button;
-	background-color:rgb(0, 0, 0);
+	background-color:$ColorPrincipal;
 	color:rgb(255, 255, 255);
-}
-    
-  .enviar {
+
     &:hover{
         background-color: #fcf9f9;
         color: rgb(4, 221, 4);
@@ -476,18 +485,14 @@ p {
 	background-color:rgb(243, 243, 243);
 	color:rgb(0, 0, 0);
     border: 3px solid #131313;
-}
-
-    .cancelar {
-        &:hover{
-            background-color: #000000;
-            color: red;
-            transition: background-color 0.1s;
-            box-shadow: 3px 3px 10px #999;
-        }
+    
+    &:hover{
+        background-color:$ColorPrincipal;
+        color: red;
+        transition: background-color 0.1s;
+        box-shadow: 3px 3px 10px #999;
     }
-
-
+}
 
 
 .map {
@@ -504,7 +509,9 @@ p {
 
 .menufooter {
     text-align: center;
-    color: #ebebeb;
+    font-size: 20px;
+    font-weight: bold;
+    
 }
 
 .redes {
@@ -513,8 +520,8 @@ p {
     margin-top: 16px;
 
     .redes1 {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         margin-top: 10px;
     }
 }
@@ -578,7 +585,7 @@ p {
         background-color:rgb(12, 12, 12);
         color:rgb(255, 255, 255);
     }   
-     
+
     
     .cancelar{
         @extend .button;
