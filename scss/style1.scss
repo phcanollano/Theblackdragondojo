@@ -68,14 +68,16 @@ body {
 
 .footer,
 footer {
-    background-image: url(../images/metal.jpg);
-    width: 100%;
+    background-color: #bb0c0c;
+    
+}
+    
 
     .derechos,
     derechos {
         text-align: center;
     }
-}
+
 
 h1 {
     color: rgb(255, 255, 255);
@@ -573,11 +575,10 @@ p {
     
     .enviar{
         @extend .button;
-        background-color:rgb(206, 37, 37);
+        background-color:rgb(12, 12, 12);
         color:rgb(255, 255, 255);
+    }   
      
-    }
-    
     
     .cancelar{
         @extend .button;
