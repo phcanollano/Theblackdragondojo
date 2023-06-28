@@ -30,15 +30,15 @@ ul {
 
 li {
     background-color: #db1e1e;
-    border: #ffffff 2px solid;
     display: inline;
     margin-right: 10px;
 
     .hover:hover {
-        background-color: #131313;
+        background-color: #fffafa;
         color: red;
         border: 2px #ebebeb;
-        transition: background-color 1s;
+        transition: background-color 0.1s;
+        box-shadow: 5px 5px 10px #c72424;
     }
 }
 
@@ -454,19 +454,37 @@ p {
 	border: 3px solid rgb(255, 255, 255);
 }
 
-.button--enviar{
+.enviar{
 	@extend .button;
 	background-color:rgb(0, 0, 0);
 	color:rgb(255, 255, 255);
 }
+    
+  .enviar {
+    &:hover{
+        background-color: #fcf9f9;
+        color: rgb(4, 221, 4);
+        transition: background-color 0.1s;
+        box-shadow: 3px 3px 10px #000000;
+    }
+}
 
-
-.button--cancelar{
+.cancelar{
 	@extend .button;
 	background-color:rgb(243, 243, 243);
 	color:rgb(0, 0, 0);
     border: 3px solid #131313;
 }
+
+    .cancelar {
+        &:hover{
+            background-color: #000000;
+            color: red;
+            transition: background-color 0.1s;
+            box-shadow: 3px 3px 10px #999;
+        }
+    }
+
 
 
 
@@ -553,14 +571,15 @@ p {
         border: 3px solid rgb(255, 255, 255);
     }
     
-    .button--enviar{
+    .enviar{
         @extend .button;
-        background-color:rgb(0, 0, 0);
+        background-color:rgb(206, 37, 37);
         color:rgb(255, 255, 255);
+     
     }
     
     
-    .button--cancelar{
+    .cancelar{
         @extend .button;
         background-color:rgb(243, 243, 243);
         color:rgb(0, 0, 0);
