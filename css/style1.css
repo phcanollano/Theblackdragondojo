@@ -289,7 +289,7 @@ p {
   box-shadow: 5px 5px 10px #141414;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 560px) {
   .flex2,
   flex2 {
     display: flex;
