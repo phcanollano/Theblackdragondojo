@@ -334,6 +334,7 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
 
@@ -406,7 +407,13 @@ p {
 
 
 
-@media (max-width: 520px) {
+@media (max-width: 570px) {
+
+    .horario {
+        height: 90%;
+        width: 90%;
+        margin-bottom: 50px;
+    }
 
     .lugar,
     lugar {
@@ -431,9 +438,9 @@ p {
             margin-bottom: 20px;
             margin-right: 3px;
             font-family: Arial, Helvetica, sans-serif;
-            width: 190px;
-            height: 70px;
-            font-size: 20px;
+            width: 350px;
+            height: 90px;
+            font-size: 22px;
             font-weight: bolder;
             text-align: center;
 

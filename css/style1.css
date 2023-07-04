@@ -295,6 +295,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .model {
     margin-top: 3%;
@@ -336,32 +337,9 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-}
-.clasesdrive .boxindex {
-  height: 200px;
-  width: 260px;
-  margin-top: 10px;
-  margin-right: 5px;
-}
-.clasesdrive .box {
-  width: 400px;
-  height: 250px;
-  margin: 10px;
-  text-align: center;
-  background-color: rgb(201, 34, 34);
-  border: 1px solid white;
-  box-shadow: 0 0 5px 3px #ffffff;
-}
-
-.clasesdrive {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
-
-.menu2 {
+.clasesdrive .menu2 {
   background-color: rgb(201, 34, 34);
   border: #ffffff 2px solid;
   display: inline;
@@ -374,12 +352,17 @@ p {
   font-weight: bolder;
   text-align: center;
 }
-.menu2:hover {
+.clasesdrive .menu2:hover {
   transition: background-color 0.1s;
   box-shadow: 5px 5px 10px #e41010;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 570px) {
+  .horario {
+    height: 90%;
+    width: 90%;
+    margin-bottom: 50px;
+  }
   .lugar,
   lugar {
     border: 1px solid white;
@@ -389,20 +372,26 @@ p {
     height: 250px;
     align-items: center;
   }
-  .menu2 {
+  .clasesdrive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .clasesdrive .menu2 {
     background-color: rgb(201, 34, 34);
     border: #ffffff 2px solid;
     display: inline;
     margin-bottom: 20px;
     margin-right: 3px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 190px;
-    height: 70px;
-    font-size: 15px;
+    width: 350px;
+    height: 90px;
+    font-size: 22px;
     font-weight: bolder;
     text-align: center;
   }
-  .menu2:hover {
+  .clasesdrive .menu2:hover {
     transition: background-color 0.1s;
     box-shadow: 5px 5px 10px #e41010;
   }
