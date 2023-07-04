@@ -1,7 +1,7 @@
 /*variables*/
 $ColorPrincipal: rgb(0, 0, 0);
 $ColorSecundario: rgb(201, 34, 34);
-$FuenteTitulo:  50px;
+$FuenteTitulo: 50px;
 $FuenteTexto: 20px;
 
 * {
@@ -75,14 +75,14 @@ body {
 .footer,
 footer {
     background-color: $ColorSecundario;
-    
-}
-    
 
-    .derechos,
-    derechos {
-        text-align: center;
-    }
+}
+
+
+.derechos,
+derechos {
+    text-align: center;
+}
 
 
 h1 {
@@ -93,7 +93,7 @@ h1 {
     margin-bottom: 3%;
     font-size: $FuenteTitulo;
     text-align: center;
-    
+
 }
 
 
@@ -131,7 +131,7 @@ h1 {
         margin: 10px;
         text-align: center;
         @include background-flex;
-        
+
 
         .pbox {
             text-align: center;
@@ -151,6 +151,7 @@ h1 {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
         .box,
         box {
             width: 350px;
@@ -158,15 +159,16 @@ h1 {
             margin: 10px;
             text-align: center;
             @include background-flex;
-            
+
         }
+
         .boxindex,
         boxindex {
             height: 200px;
             width: 300px;
             margin-top: 10px;
             margin-right: 5px;
-    
+
         }
     }
 
@@ -203,33 +205,36 @@ h1 {
 
 
 @media (max-width: 576px) {
+
     .boxopiniones1,
     boxopiniones1 {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
         .opiniones,
-    opiniones {
-        margin-top: 3%;
-        margin-left: 1%;
-        margin-bottom: 5%;
-        width: 350px;
-        height: 110px;
-        font-size: large;
-        @include background-flex;
-        .perfil,
-        perfil {
-            width: 60px;
-            height: 60px;
-            border-radius: 70px;
-            border: 1px solid white;
-            float: left;
-            margin-right: 3%;
-            margin-top: 2%;
-            margin-left: 2%;
+        opiniones {
+            margin-top: 3%;
+            margin-left: 1%;
+            margin-bottom: 5%;
+            width: 350px;
+            height: 110px;
+            font-size: large;
+            @include background-flex;
+
+            .perfil,
+            perfil {
+                width: 60px;
+                height: 60px;
+                border-radius: 70px;
+                border: 1px solid white;
+                float: left;
+                margin-right: 3%;
+                margin-top: 2%;
+                margin-left: 2%;
+            }
         }
-    }
     }
 
 }
@@ -314,6 +319,7 @@ p {
         margin-right: 3px;
         font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
+
         &:hover {
             transition: background-color 0.1s;
             box-shadow: 5px 5px 10px #141414;
@@ -371,51 +377,30 @@ p {
     margin-left: 5%;
     margin-bottom: 50px;
 }
- 
+
 .clasesdrive {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-
-    .boxindex {
-        height: 200px;
-        width: 260px;
-        margin-top: 10px;
-        margin-right: 5px;
-    }
-
-    .box {
-        width: 400px;
-        height: 250px;
-        margin: 10px;
-        text-align: center;
-        @include background-flex;
-    }
-}
-
-.clasesdrive{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-.menu2 {
-    background-color: $ColorSecundario;
-    border: #ffffff 2px solid;
-    display: inline;
-    margin-bottom: 20px;
-    margin-right: 3px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 450px;
-    height: 100px;
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-    &:hover {
-        transition: background-color 0.1s;
-        box-shadow: 5px 5px 10px #e41010;
+
+    .menu2 {
+        background-color: $ColorSecundario;
+        border: #ffffff 2px solid;
+        display: inline;
+        margin-bottom: 20px;
+        margin-right: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 450px;
+        height: 100px;
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+        &:hover {
+            transition: background-color 0.1s;
+            box-shadow: 5px 5px 10px #e41010;
+        }
     }
-}
 }
 
 
@@ -433,32 +418,33 @@ p {
         align-items: center;
 
     }
-    .clasesdrive{
+
+    .clasesdrive {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-    .menu2 {
-        background-color: $ColorSecundario;
-        border: #ffffff 2px solid;
-        display: inline;
-        margin-bottom: 20px;
-        margin-right: 3px;
-        font-family: Arial, Helvetica, sans-serif;
-        width: 190px;
-        height: 70px;
-        font-size: 15px;
-        font-weight: bolder;
-        text-align: center;
-        &:hover {
-            transition: background-color 0.1s;
-            box-shadow: 5px 5px 10px #e41010;
+
+        .menu2 {
+            background-color: $ColorSecundario;
+            border: #ffffff 2px solid;
+            display: inline;
+            margin-bottom: 20px;
+            margin-right: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 190px;
+            height: 70px;
+            font-size: 15px;
+            font-weight: bolder;
+            text-align: center;
+
+            &:hover {
+                transition: background-color 0.1s;
+                box-shadow: 5px 5px 10px #e41010;
+            }
         }
     }
 }
-}
-
-
 
 .fotosuiama {
     height: 7rem;
@@ -531,18 +517,18 @@ p {
 }
 
 .button {
-	width:100px;
-	height:40px;
-	text-align:center;
-	border: 3px solid rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
 }
 
-.enviar{
-	@extend .button;
-	background-color:$ColorPrincipal;
-	color:rgb(255, 255, 255);
+.enviar {
+    @extend .button;
+    background-color: $ColorPrincipal;
+    color: rgb(255, 255, 255);
 
-    &:hover{
+    &:hover {
         background-color: #fcf9f9;
         color: rgb(4, 221, 4);
         transition: background-color 0.1s;
@@ -550,14 +536,14 @@ p {
     }
 }
 
-.cancelar{
-	@extend .button;
-	background-color:rgb(243, 243, 243);
-	color:rgb(0, 0, 0);
+.cancelar {
+    @extend .button;
+    background-color: rgb(243, 243, 243);
+    color: rgb(0, 0, 0);
     border: 3px solid #131313;
-    
-    &:hover{
-        background-color:$ColorPrincipal;
+
+    &:hover {
+        background-color: $ColorPrincipal;
         color: red;
         transition: background-color 0.1s;
         box-shadow: 3px 3px 10px #999;
@@ -581,7 +567,7 @@ p {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    
+
 }
 
 .redes {
@@ -644,23 +630,23 @@ p {
     }
 
     .button {
-        width:80px;
-        height:30px;
-        text-align:center;
+        width: 80px;
+        height: 30px;
+        text-align: center;
         border: 3px solid rgb(255, 255, 255);
     }
-    
-    .enviar{
-        @extend .button;
-        background-color:rgb(12, 12, 12);
-        color:rgb(255, 255, 255);
-    }   
 
-    
-    .cancelar{
+    .enviar {
         @extend .button;
-        background-color:rgb(243, 243, 243);
-        color:rgb(0, 0, 0);
+        background-color: rgb(12, 12, 12);
+        color: rgb(255, 255, 255);
+    }
+
+
+    .cancelar {
+        @extend .button;
+        background-color: rgb(243, 243, 243);
+        color: rgb(0, 0, 0);
         border: 3px solid #131313;
     }
 
@@ -675,4 +661,3 @@ p {
     }
 
 }
- 
