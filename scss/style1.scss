@@ -406,7 +406,7 @@ p {
 
 
 
-@media (max-width: 420gpx) {
+@media (max-width: 520px) {
 
     .lugar,
     lugar {
@@ -424,7 +424,6 @@ p {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
         .menu2 {
             background-color: $ColorSecundario;
             border: #ffffff 2px solid;
@@ -434,7 +433,7 @@ p {
             font-family: Arial, Helvetica, sans-serif;
             width: 190px;
             height: 70px;
-            font-size: 15px;
+            font-size: 20px;
             font-weight: bolder;
             text-align: center;
 
