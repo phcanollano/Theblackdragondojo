@@ -14,7 +14,7 @@ $FuenteTexto: 20px;
 @mixin background-flex {
     background-color: $ColorSecundario;
     border: 1px solid white;
-    box-shadow: 0 0 5px 3px #ffffff;
+    box-shadow: -1px -1px 4px 0.5px #ffffff;
 }
 
 .logo {
@@ -397,6 +397,7 @@ p {
         font-size: 30px;
         font-weight: bolder;
         text-align: center;
+
         &:hover {
             transition: background-color 0.1s;
             box-shadow: 5px 5px 10px #e41010;
@@ -431,6 +432,7 @@ p {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
         .menu2 {
             background-color: $ColorSecundario;
             border: #ffffff 2px solid;
