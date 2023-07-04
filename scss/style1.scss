@@ -399,7 +399,6 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
 .menu2 {
     background-color: $ColorSecundario;
     border: #ffffff 2px solid;
@@ -417,10 +416,12 @@ p {
         box-shadow: 5px 5px 10px #e41010;
     }
 }
+}
 
 
 
-@media (max-width: 420px) {
+
+@media (max-width: 420gpx) {
 
     .lugar,
     lugar {
@@ -432,7 +433,11 @@ p {
         align-items: center;
 
     }
-
+    .clasesdrive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     .menu2 {
         background-color: $ColorSecundario;
         border: #ffffff 2px solid;
