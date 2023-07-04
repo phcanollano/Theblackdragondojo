@@ -103,6 +103,7 @@ h1 {
   text-align: center;
   background-color: rgb(201, 34, 34);
   border: 1px solid white;
+  box-shadow: 0 0 5px 3px #ffffff;
 }
 .flex1 .box .pbox {
   text-align: center;
@@ -129,6 +130,7 @@ h1 {
     text-align: center;
     background-color: rgb(201, 34, 34);
     border: 1px solid white;
+    box-shadow: 0 0 5px 3px #ffffff;
   }
   .flex1 .boxindex,
   .flex1 boxindex,
@@ -165,6 +167,7 @@ h1 {
   font-size: large;
   background-color: rgb(201, 34, 34);
   border: 1px solid white;
+  box-shadow: 0 0 5px 3px #ffffff;
 }
 
 @media (max-width: 576px) {
@@ -187,6 +190,7 @@ h1 {
     font-size: large;
     background-color: rgb(201, 34, 34);
     border: 1px solid white;
+    box-shadow: 0 0 5px 3px #ffffff;
   }
   .boxopiniones1 .opiniones .perfil,
   .boxopiniones1 .opiniones perfil,
@@ -270,6 +274,7 @@ p {
   text-align: center;
   background-color: rgb(201, 34, 34);
   border: 1px solid white;
+  box-shadow: 0 0 5px 3px #ffffff;
 }
 .flex2 .menu1 {
   background-color: rgb(0, 0, 0);
@@ -301,6 +306,7 @@ p {
     text-align: center;
     background-color: rgb(201, 34, 34);
     border: 1px solid white;
+    box-shadow: 0 0 5px 3px #ffffff;
   }
   .txttienda {
     text-align: center;
@@ -323,6 +329,54 @@ p {
   height: 90%;
   width: 90%;
   margin-left: 5%;
+  margin-bottom: 50px;
+}
+
+.clasesdrive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.clasesdrive .boxindex {
+  height: 200px;
+  width: 260px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.clasesdrive .box {
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(201, 34, 34);
+  border: 1px solid white;
+  box-shadow: 0 0 5px 3px #ffffff;
+}
+
+.clasesdrive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu2 {
+  background-color: rgb(201, 34, 34);
+  border: #ffffff 2px solid;
+  display: inline;
+  margin-bottom: 20px;
+  margin-right: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 450px;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+.menu2:hover {
+  transition: background-color 0.1s;
+  box-shadow: 5px 5px 10px #e41010;
 }
 
 @media (max-width: 576px) {
@@ -334,6 +388,23 @@ p {
     width: 250px;
     height: 250px;
     align-items: center;
+  }
+  .menu2 {
+    background-color: rgb(201, 34, 34);
+    border: #ffffff 2px solid;
+    display: inline;
+    margin-bottom: 20px;
+    margin-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 190px;
+    height: 70px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .menu2:hover {
+    transition: background-color 0.1s;
+    box-shadow: 5px 5px 10px #e41010;
   }
 }
 .fotosuiama {
@@ -368,6 +439,7 @@ p {
   margin: auto;
   background-color: rgb(201, 34, 34);
   border: 1px solid white;
+  box-shadow: 0 0 5px 3px #ffffff;
 }
 .form .form1 {
   color: rgb(2, 2, 2);
@@ -468,6 +540,7 @@ p {
     margin: auto;
     background-color: rgb(201, 34, 34);
     border: 1px solid white;
+    box-shadow: 0 0 5px 3px #ffffff;
   }
   .form1,
   form1 {

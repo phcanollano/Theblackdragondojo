@@ -13,7 +13,8 @@ $FuenteTexto: 20px;
 
 @mixin background-flex {
     background-color: $ColorSecundario;
-    border: 1px solid white
+    border: 1px solid white;
+    box-shadow: 0 0 5px 3px #ffffff;
 }
 
 .logo {
@@ -361,7 +362,6 @@ p {
     width: 350px;
     height: 400px;
     margin-top: 50px;
-
 }
 
 
@@ -369,8 +369,54 @@ p {
     height: 90%;
     width: 90%;
     margin-left: 5%;
+    margin-bottom: 50px;
+}
+ 
+.clasesdrive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    .boxindex {
+        height: 200px;
+        width: 260px;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+
+    .box {
+        width: 400px;
+        height: 250px;
+        margin: 10px;
+        text-align: center;
+        @include background-flex;
+    }
 }
 
+.clasesdrive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu2 {
+    background-color: $ColorSecundario;
+    border: #ffffff 2px solid;
+    display: inline;
+    margin-bottom: 20px;
+    margin-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 450px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    &:hover {
+        transition: background-color 0.1s;
+        box-shadow: 5px 5px 10px #e41010;
+    }
+}
 
 
 
@@ -385,6 +431,24 @@ p {
         height: 250px;
         align-items: center;
 
+    }
+
+    .menu2 {
+        background-color: $ColorSecundario;
+        border: #ffffff 2px solid;
+        display: inline;
+        margin-bottom: 20px;
+        margin-right: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 190px;
+        height: 70px;
+        font-size: 15px;
+        font-weight: bolder;
+        text-align: center;
+        &:hover {
+            transition: background-color 0.1s;
+            box-shadow: 5px 5px 10px #e41010;
+        }
     }
 }
 
