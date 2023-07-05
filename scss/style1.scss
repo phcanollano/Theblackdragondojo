@@ -1,7 +1,7 @@
 /*variables*/
 $ColorPrincipal: rgb(0, 0, 0);
 $ColorSecundario: rgb(201, 34, 34);
-$FuenteTitulo: 50px;
+$FuenteTitulo: 60px;
 $FuenteTexto: 20px;
 
 * {
@@ -18,21 +18,24 @@ $FuenteTexto: 20px;
 }
 
 .logo {
-    height: 240px;
+    height: 260px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
 
 }
 
 .menu {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
+    font-size: x-large;
 }
 
 
 ul {
     list-style-type: none;
-    text-align: center
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
 li {
@@ -40,7 +43,7 @@ li {
     border: 2px solid #f5f5f5;
     display: inline;
     margin-right: 10px;
-
+    
     &:hover {
         background-color: $ColorPrincipal;
         transition: background-color 0.1s;
@@ -88,11 +91,12 @@ derechos {
 h1 {
     color: rgb(255, 255, 255);
     font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
     margin-top: 4%;
     margin-bottom: 3%;
     font-size: $FuenteTitulo;
     text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
 
 }
 
@@ -137,7 +141,8 @@ h1 {
             text-align: center;
             color: rgb(255, 255, 255);
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: large;
+            font-size: 30px;
+            font-weight: bold;
 
         }
     }
@@ -245,7 +250,7 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-left: 10px;
     font-size: $FuenteTexto;
     text-align: justify;
@@ -372,12 +377,23 @@ p {
 }
 
 
-.horario {
-    height: 90%;
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 50px;
-}
+table {
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+   margin: 0 auto;
+ }
+  td {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: $ColorSecundario;
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+ }
+
 
 .clasesdrive {
     display: flex;
@@ -390,6 +406,7 @@ p {
         border: #ffffff 2px solid;
         display: inline;
         margin-bottom: 20px;
+        margin-top: 50px;
         margin-right: 3px;
         font-family: Arial, Helvetica, sans-serif;
         width: 450px;
@@ -409,12 +426,6 @@ p {
 
 
 @media (max-width: 570px) {
-
-    .horario {
-        height: 90%;
-        width: 90%;
-        margin-bottom: 50px;
-    }
 
     .lugar,
     lugar {

@@ -6,19 +6,21 @@
 }
 
 .logo {
-  height: 240px;
+  height: 260px;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .menu {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: large;
+  font-size: x-large;
 }
 
 ul {
   list-style-type: none;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 li {
@@ -64,11 +66,12 @@ derechos {
 h1 {
   color: rgb(255, 255, 255);
   font-style: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: bold;
   margin-top: 4%;
   margin-bottom: 3%;
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -109,7 +112,8 @@ h1 {
   text-align: center;
   color: rgb(255, 255, 255);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: large;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 @media (max-width: 576px) {
@@ -215,7 +219,7 @@ p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 2%;
   margin-bottom: 2%;
-  margin-right: 30px;
+  margin-right: 20px;
   margin-left: 10px;
   font-size: 20px;
   text-align: justify;
@@ -326,11 +330,21 @@ p {
   margin-top: 50px;
 }
 
-.horario {
-  height: 90%;
-  width: 90%;
-  margin-left: 5%;
-  margin-bottom: 50px;
+table {
+  width: 70%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+td {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(201, 34, 34);
+  border: 2px solid white;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .clasesdrive {
@@ -344,6 +358,7 @@ p {
   border: #ffffff 2px solid;
   display: inline;
   margin-bottom: 20px;
+  margin-top: 50px;
   margin-right: 3px;
   font-family: Arial, Helvetica, sans-serif;
   width: 450px;
@@ -358,11 +373,6 @@ p {
 }
 
 @media (max-width: 570px) {
-  .horario {
-    height: 90%;
-    width: 90%;
-    margin-bottom: 50px;
-  }
   .lugar,
   lugar {
     border: 1px solid white;
