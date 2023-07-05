@@ -43,7 +43,7 @@ li {
     border: 2px solid #f5f5f5;
     display: inline;
     margin-right: 10px;
-    
+
     &:hover {
         background-color: $ColorPrincipal;
         transition: background-color 0.1s;
@@ -381,19 +381,20 @@ table {
     width: 70%;
     margin-top: 40px;
     margin-bottom: 20px;
-   margin: 0 auto;
-   td {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    background-color: $ColorSecundario;
-    border: 2px solid white;
-    margin-left: 10px;
-    margin-right: 20px;
-    
- }
+    margin: 0 auto;
 
- }
+    td {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        background-color: $ColorSecundario;
+        border: 2px solid white;
+        margin-left: 10px;
+        margin-right: 20px;
+
+    }
+
+}
 
 
 .clasesdrive {
@@ -438,24 +439,26 @@ table {
         align-items: center;
 
     }
+
     table {
         width: 70%;
         margin-top: 40px;
         margin-bottom: 20px;
-       margin: 0 auto;
-       td {
-        text-align: center;
-        color: white;
-        font-weight: bold;
-        background-color: $ColorSecundario;
-        border: 2px solid white;
-        margin-left: 10px;
-        margin-right: 20px;
-        
-     }
-     }
-   
-    
+        margin: 0 auto;
+
+        td {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            background-color: $ColorSecundario;
+            border: 2px solid white;
+            margin-left: 10px;
+            margin-right: 20px;
+
+        }
+    }
+
+
 
     .clasesdrive {
         display: flex;
