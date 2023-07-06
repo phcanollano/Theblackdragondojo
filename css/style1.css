@@ -6,9 +6,8 @@
 }
 
 .logo {
-  height: 260px;
   width: 100%;
-  margin-top: 15px;
+  height: 250px;
 }
 
 .menu {
@@ -225,6 +224,15 @@ p {
   text-align: justify;
 }
 
+.texto {
+  margin: 50px;
+}
+
+.texto1 {
+  margin: 50px;
+  text-align: center;
+}
+
 .uiama {
   width: 450px;
   height: 350px;
@@ -382,7 +390,7 @@ table td {
     align-items: center;
   }
   table {
-    width: 70%;
+    width: 50%;
     margin-top: 40px;
     margin-bottom: 20px;
     margin: 0 auto;
@@ -594,7 +602,7 @@ table td {
   .cancelar {
     background-color: rgb(243, 243, 243);
     color: rgb(0, 0, 0);
-    border: 3px solid #131313;
+    border: 10px solid #131313;
   }
   .input,
   input {
