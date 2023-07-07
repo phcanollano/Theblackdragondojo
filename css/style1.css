@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  border: solid 2px red;
 }
 
 .logo {
@@ -134,8 +133,6 @@ p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 2%;
   margin-bottom: 2%;
-  margin-right: 20px;
-  margin-left: 10px;
   font-size: 20px;
   text-align: justify;
 }
@@ -580,7 +577,6 @@ table td {
     font-size: 20px;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 2%;
     text-align: justify;
   }
   .uiama {
