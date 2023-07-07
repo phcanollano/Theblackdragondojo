@@ -212,7 +212,7 @@ p {
 
         &:hover {
             transition: background-color 0.1s;
-            box-shadow: 5px 5px 10px #141414;
+            box-shadow: 5px 5px 10px #b62828;
         }
     }
 }
@@ -247,12 +247,7 @@ table {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    &:hover {
-        background-color: $ColorPrincipal;
-        transition: background-color 0.1s;
-        box-shadow: 5px 5px 10px #c72424;
-    }
-
+  
     .menu2 {
         background-color: $ColorSecundario;
         border: #ffffff 2px solid;
@@ -591,6 +586,11 @@ table {
         display: block;
     }
 
+    .input,
+    input {
+        width: 100%;
+    }
+
     .button {
         width: 80px;
         height: 30px;
@@ -614,10 +614,7 @@ table {
         border: 2px solid #131313;
     }
 
-    .input,
-    input {
-        width: 100%;
-    }
+   
 
     .menufooter,
     menufooter {
@@ -648,7 +645,7 @@ table {
         margin-top: 4%;
         margin-bottom: 3%;
         text-align: center;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .texto1 {
