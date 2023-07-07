@@ -6,7 +6,7 @@ $FuenteTexto: 20px;
 
 * {
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
 
 
@@ -22,6 +22,12 @@ $FuenteTexto: 20px;
     height: 250px;
 }
 
+.logo2 {
+    width: 99%;
+    height: 250px;
+}
+
+
 .menu {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
@@ -33,7 +39,6 @@ ul {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 li {
@@ -55,35 +60,20 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 576px) {
-
-    .menu,
-    menu {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: small;
-    }
-
-
-}
-
 .body,
 body {
     background-color: $ColorPrincipal;
 }
-
-
 
 .footer,
 footer {
     background-color: $ColorSecundario;
 }
 
-
 .derechos,
 derechos {
     text-align: center;
 }
-
 
 h1 {
     color: rgb(255, 255, 255);
@@ -94,23 +84,6 @@ h1 {
     text-align: center;
     font-weight: bolder;
     text-decoration: underline;
-
-}
-
-
-@media (max-width: 768px) {
-
-    .h1,
-    h1 {
-        color: rgb(255, 255, 255);
-        font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-weight: bold;
-        margin-top: 4%;
-        margin-bottom: 3%;
-        font-size: 1rem;
-        text-align: center;
-        font-size: 25px;
-    }
 }
 
 .flex1 {
@@ -133,7 +106,6 @@ h1 {
         text-align: center;
         @include background-flex;
 
-
         .pbox {
             text-align: center;
             color: rgb(255, 255, 255);
@@ -144,38 +116,6 @@ h1 {
         }
     }
 }
-
-@media (max-width: 576px) {
-
-    .flex1,
-    flex1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-        .box,
-        box {
-            width: 350px;
-            height: 240px;
-            margin: 10px;
-            text-align: center;
-            @include background-flex;
-
-        }
-
-        .boxindex,
-        boxindex {
-            height: 200px;
-            width: 300px;
-            margin-top: 10px;
-            margin-right: 5px;
-
-        }
-    }
-
-}
-
 
 .boxopiniones1 {
     display: flex;
@@ -205,43 +145,6 @@ h1 {
     }
 }
 
-
-@media (max-width: 576px) {
-
-    .boxopiniones1,
-    boxopiniones1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-        .opiniones,
-        opiniones {
-            margin-top: 3%;
-            margin-left: 1%;
-            margin-bottom: 5%;
-            width: 350px;
-            height: 110px;
-            font-size: large;
-            @include background-flex;
-
-            .perfil,
-            perfil {
-                width: 60px;
-                height: 60px;
-                border-radius: 70px;
-                border: 1px solid white;
-                float: left;
-                margin-right: 3%;
-                margin-top: 2%;
-                margin-left: 2%;
-            }
-        }
-    }
-
-}
-
-
 p {
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -254,7 +157,7 @@ p {
 }
 
 .texto {
-    margin: 50px;  
+    margin: 50px;
 }
 
 .texto1 {
@@ -268,27 +171,6 @@ p {
     text-align: center;
 }
 
-
-@media (max-width: 576px) {
-
-    .p,
-    p {
-        color: rgb(255, 255, 254);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 14px;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-left: 2%;
-        text-align: justify;
-    }
-
-    .uiama {
-        width: 350px;
-        height: 200px;
-        text-align: center;
-    }
-}
-
 .flex2 {
     display: flex;
     flex-direction: row;
@@ -299,7 +181,6 @@ p {
         height: 200px;
         width: 180px;
         border: 2px solid #131313;
-
     }
 
     .txttienda {
@@ -338,50 +219,11 @@ p {
     }
 }
 
-@media (max-width: 560px) {
-
-    .flex2,
-    flex2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    .model {
-        margin-top: 3%;
-        margin-left: 100px;
-        margin-bottom: 10%;
-        width: 200px;
-        height: 220px;
-        font-size: x-large;
-        text-align: center;
-        @include background-flex;
-    }
-
-    .txttienda {
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-right: 2%;
-        margin-left: 2%;
-        font-size: 15px;
-    }
-
-
-}
-
-
-
 .lugar {
     width: 350px;
     height: 400px;
     margin-top: 50px;
 }
-
 
 table {
     width: 70%;
@@ -401,7 +243,6 @@ table {
     }
 
 }
-
 
 .clasesdrive {
     display: flex;
@@ -430,71 +271,32 @@ table {
     }
 }
 
+.clasesdrive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-
-
-@media (max-width: 570px) {
-
-    .lugar,
-    lugar {
-        border: 1px solid white;
-        margin-left: 3%;
-        margin-top: 4%;
-        width: 250px;
-        height: 250px;
-        align-items: center;
-
-    }
-
-    table {
-        width: 50%;
-        margin-top: 40px;
+    .menu2 {
+        background-color: $ColorSecundario;
+        border: #ffffff 2px solid;
+        display: inline;
         margin-bottom: 20px;
-        margin: 0 auto;
-        overflow:scroll;
-        height:200px;
-        width:500px;
+        margin-right: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 350px;
+        height: 90px;
+        font-size: 22px;
+        font-weight: bolder;
+        text-align: center;
 
-        td {
-            text-align: center;
-            color: white;
-            font-weight: bold;
-            background-color: $ColorSecundario;
-            border: 2px solid white;
-            margin-left: 10px;
-            margin-right: 20px;
-
-        }
-    }
-
-
-
-    .clasesdrive {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-        .menu2 {
-            background-color: $ColorSecundario;
-            border: #ffffff 2px solid;
-            display: inline;
-            margin-bottom: 20px;
-            margin-right: 3px;
-            font-family: Arial, Helvetica, sans-serif;
-            width: 350px;
-            height: 90px;
-            font-size: 22px;
-            font-weight: bolder;
-            text-align: center;
-
-            &:hover {
-                transition: background-color 0.1s;
-                box-shadow: 5px 5px 10px #e41010;
-            }
+        &:hover {
+            transition: background-color 0.1s;
+            box-shadow: 5px 5px 10px #e41010;
         }
     }
 }
+
 
 .fotosuiama {
     height: 7rem;
@@ -510,16 +312,6 @@ table {
 .carousel-item>.item>img {
     text-align: center;
 }
-
-
-@media (max-width: 576px) {
-
-    .fotosuiama,
-    fotosuiama {
-        display: none;
-    }
-}
-
 
 .carousel,
 .carousel-item>.item>img {
@@ -634,6 +426,142 @@ table {
 
 @media (max-width: 576px) {
 
+    .menu,
+    menu {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: small;
+    }
+
+    .flex1,
+    flex1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .box,
+        box {
+            width: 350px;
+            height: 240px;
+            margin: 10px;
+            text-align: center;
+            @include background-flex;
+
+        }
+
+        .boxindex,
+        boxindex {
+            height: 200px;
+            width: 300px;
+            margin-top: 10px;
+            margin-right: 5px;
+
+        }
+    }
+
+    .boxopiniones1,
+    boxopiniones1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .opiniones,
+        opiniones {
+            margin-top: 3%;
+            margin-left: 1%;
+            margin-bottom: 5%;
+            width: 350px;
+            height: 110px;
+            font-size: large;
+            @include background-flex;
+
+            .perfil,
+            perfil {
+                width: 60px;
+                height: 60px;
+                border-radius: 70px;
+                border: 1px solid white;
+                float: left;
+                margin-right: 3%;
+                margin-top: 2%;
+                margin-left: 2%;
+            }
+        }
+    }
+
+    .flex2,
+    flex2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .model {
+        margin-top: 3%;
+        margin-left: 100px;
+        margin-bottom: 10%;
+        width: 200px;
+        height: 220px;
+        font-size: x-large;
+        text-align: center;
+        @include background-flex;
+    }
+
+    .txttienda {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: 2%;
+        margin-left: 2%;
+        font-size: 15px;
+    }
+
+    .lugar,
+    lugar {
+        border: 1px solid white;
+        margin-left: 3%;
+        margin-top: 4%;
+        width: 250px;
+        height: 250px;
+        align-items: center;
+
+    }
+
+    .tabla {
+        overflow: scroll;
+        height: 200px;
+        width: 500px;
+        margin-left: 50px;
+
+        table {
+            width: 50%;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            margin: 0 auto;
+
+            td {
+                text-align: center;
+                color: white;
+                font-weight: bold;
+                background-color: $ColorSecundario;
+                border: 2px solid white;
+                margin-left: 10px;
+                margin-right: 20px;
+
+            }
+        }
+    }
+
+    .fotosuiama,
+    fotosuiama {
+        display: none;
+    }
+
     .tamaño,
     tamaño {
         height: 80%;
@@ -710,4 +638,36 @@ table {
         font-size: large;
     }
 
+    .p,
+    p {
+        color: rgb(255, 255, 254);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 14px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        text-align: justify;
+    }
+
+    .uiama {
+        width: 350px;
+        height: 200px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .h1,
+    h1 {
+        color: rgb(255, 255, 255);
+        font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        margin-top: 4%;
+        margin-bottom: 3%;
+        font-size: 1rem;
+        text-align: center;
+        font-size: 25px;
+    }
 }

@@ -10,6 +10,11 @@
   height: 250px;
 }
 
+.logo2 {
+  width: 99%;
+  height: 250px;
+}
+
 .menu {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: x-large;
@@ -40,13 +45,6 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 576px) {
-  .menu,
-  menu {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: small;
-  }
-}
 .body,
 body {
   background-color: rgb(0, 0, 0);
@@ -73,19 +71,6 @@ h1 {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-  .h1,
-  h1 {
-    color: rgb(255, 255, 255);
-    font-style: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-weight: bold;
-    margin-top: 4%;
-    margin-bottom: 3%;
-    font-size: 1rem;
-    text-align: center;
-    font-size: 25px;
-  }
-}
 .flex1 {
   display: flex;
   justify-content: center;
@@ -115,36 +100,6 @@ h1 {
   font-weight: bold;
 }
 
-@media (max-width: 576px) {
-  .flex1,
-  flex1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .flex1 .box,
-  .flex1 box,
-  flex1 .box,
-  flex1 box {
-    width: 350px;
-    height: 240px;
-    margin: 10px;
-    text-align: center;
-    background-color: rgb(201, 34, 34);
-    border: 1px solid white;
-    box-shadow: -1px -1px 4px 0.5px #ffffff;
-  }
-  .flex1 .boxindex,
-  .flex1 boxindex,
-  flex1 .boxindex,
-  flex1 boxindex {
-    height: 200px;
-    width: 300px;
-    margin-top: 10px;
-    margin-right: 5px;
-  }
-}
 .boxopiniones1 {
   display: flex;
   justify-content: center;
@@ -173,46 +128,6 @@ h1 {
   box-shadow: -1px -1px 4px 0.5px #ffffff;
 }
 
-@media (max-width: 576px) {
-  .boxopiniones1,
-  boxopiniones1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .boxopiniones1 .opiniones,
-  .boxopiniones1 opiniones,
-  boxopiniones1 .opiniones,
-  boxopiniones1 opiniones {
-    margin-top: 3%;
-    margin-left: 1%;
-    margin-bottom: 5%;
-    width: 350px;
-    height: 110px;
-    font-size: large;
-    background-color: rgb(201, 34, 34);
-    border: 1px solid white;
-    box-shadow: -1px -1px 4px 0.5px #ffffff;
-  }
-  .boxopiniones1 .opiniones .perfil,
-  .boxopiniones1 .opiniones perfil,
-  .boxopiniones1 opiniones .perfil,
-  .boxopiniones1 opiniones perfil,
-  boxopiniones1 .opiniones .perfil,
-  boxopiniones1 .opiniones perfil,
-  boxopiniones1 opiniones .perfil,
-  boxopiniones1 opiniones perfil {
-    width: 60px;
-    height: 60px;
-    border-radius: 70px;
-    border: 1px solid white;
-    float: left;
-    margin-right: 3%;
-    margin-top: 2%;
-    margin-left: 2%;
-  }
-}
 p {
   color: rgb(255, 255, 255);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -239,23 +154,6 @@ p {
   text-align: center;
 }
 
-@media (max-width: 576px) {
-  .p,
-  p {
-    color: rgb(255, 255, 254);
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 14px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 2%;
-    text-align: justify;
-  }
-  .uiama {
-    width: 350px;
-    height: 200px;
-    text-align: center;
-  }
-}
 .flex2 {
   display: flex;
   flex-direction: row;
@@ -301,37 +199,6 @@ p {
   box-shadow: 5px 5px 10px #141414;
 }
 
-@media (max-width: 560px) {
-  .flex2,
-  flex2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .model {
-    margin-top: 3%;
-    margin-left: 100px;
-    margin-bottom: 10%;
-    width: 200px;
-    height: 220px;
-    font-size: x-large;
-    text-align: center;
-    background-color: rgb(201, 34, 34);
-    border: 1px solid white;
-    box-shadow: -1px -1px 4px 0.5px #ffffff;
-  }
-  .txttienda {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-right: 2%;
-    margin-left: 2%;
-    font-size: 15px;
-  }
-}
 .lugar {
   width: 350px;
   height: 400px;
@@ -379,55 +246,30 @@ table td {
   box-shadow: 5px 5px 10px #e41010;
 }
 
-@media (max-width: 570px) {
-  .lugar,
-  lugar {
-    border: 1px solid white;
-    margin-left: 3%;
-    margin-top: 4%;
-    width: 250px;
-    height: 250px;
-    align-items: center;
-  }
-  table {
-    width: 50%;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    margin: 0 auto;
-  }
-  table td {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    background-color: rgb(201, 34, 34);
-    border: 2px solid white;
-    margin-left: 10px;
-    margin-right: 20px;
-  }
-  .clasesdrive {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .clasesdrive .menu2 {
-    background-color: rgb(201, 34, 34);
-    border: #ffffff 2px solid;
-    display: inline;
-    margin-bottom: 20px;
-    margin-right: 3px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 350px;
-    height: 90px;
-    font-size: 22px;
-    font-weight: bolder;
-    text-align: center;
-  }
-  .clasesdrive .menu2:hover {
-    transition: background-color 0.1s;
-    box-shadow: 5px 5px 10px #e41010;
-  }
+.clasesdrive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+.clasesdrive .menu2 {
+  background-color: rgb(201, 34, 34);
+  border: #ffffff 2px solid;
+  display: inline;
+  margin-bottom: 20px;
+  margin-right: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
+  height: 90px;
+  font-size: 22px;
+  font-weight: bolder;
+  text-align: center;
+}
+.clasesdrive .menu2:hover {
+  transition: background-color 0.1s;
+  box-shadow: 5px 5px 10px #e41010;
+}
+
 .fotosuiama {
   height: 7rem;
   width: 9rem;
@@ -442,12 +284,6 @@ table td {
   text-align: center;
 }
 
-@media (max-width: 576px) {
-  .fotosuiama,
-  fotosuiama {
-    display: none;
-  }
-}
 .carousel,
 .carousel-item > .item > img {
   text-align: center;
@@ -548,6 +384,140 @@ table td {
 }
 
 @media (max-width: 576px) {
+  .menu,
+  menu {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: small;
+  }
+  .flex1,
+  flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flex1 .box,
+  .flex1 box,
+  flex1 .box,
+  flex1 box {
+    width: 350px;
+    height: 240px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(201, 34, 34);
+    border: 1px solid white;
+    box-shadow: -1px -1px 4px 0.5px #ffffff;
+  }
+  .flex1 .boxindex,
+  .flex1 boxindex,
+  flex1 .boxindex,
+  flex1 boxindex {
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  .boxopiniones1,
+  boxopiniones1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .boxopiniones1 .opiniones,
+  .boxopiniones1 opiniones,
+  boxopiniones1 .opiniones,
+  boxopiniones1 opiniones {
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    width: 350px;
+    height: 110px;
+    font-size: large;
+    background-color: rgb(201, 34, 34);
+    border: 1px solid white;
+    box-shadow: -1px -1px 4px 0.5px #ffffff;
+  }
+  .boxopiniones1 .opiniones .perfil,
+  .boxopiniones1 .opiniones perfil,
+  .boxopiniones1 opiniones .perfil,
+  .boxopiniones1 opiniones perfil,
+  boxopiniones1 .opiniones .perfil,
+  boxopiniones1 .opiniones perfil,
+  boxopiniones1 opiniones .perfil,
+  boxopiniones1 opiniones perfil {
+    width: 60px;
+    height: 60px;
+    border-radius: 70px;
+    border: 1px solid white;
+    float: left;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .flex2,
+  flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .model {
+    margin-top: 3%;
+    margin-left: 100px;
+    margin-bottom: 10%;
+    width: 200px;
+    height: 220px;
+    font-size: x-large;
+    text-align: center;
+    background-color: rgb(201, 34, 34);
+    border: 1px solid white;
+    box-shadow: -1px -1px 4px 0.5px #ffffff;
+  }
+  .txttienda {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 15px;
+  }
+  .lugar,
+  lugar {
+    border: 1px solid white;
+    margin-left: 3%;
+    margin-top: 4%;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+  }
+  .tabla {
+    overflow: scroll;
+    height: 200px;
+    width: 500px;
+    margin-left: 50px;
+  }
+  .tabla table {
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+  }
+  .tabla table td {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(201, 34, 34);
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .fotosuiama,
+  fotosuiama {
+    display: none;
+  }
   .tamaño,
   tamaño {
     height: 80%;
@@ -611,6 +581,34 @@ table td {
   .menufooter,
   menufooter {
     font-size: large;
+  }
+  .p,
+  p {
+    color: rgb(255, 255, 254);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    text-align: justify;
+  }
+  .uiama {
+    width: 350px;
+    height: 200px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .h1,
+  h1 {
+    color: rgb(255, 255, 255);
+    font-style: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-size: 1rem;
+    text-align: center;
+    font-size: 25px;
   }
 }
 
