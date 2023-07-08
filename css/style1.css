@@ -363,7 +363,7 @@ table td {
   margin-top: 10px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
   .menu,
   menu {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
