@@ -244,30 +244,6 @@ table td {
   box-shadow: 5px 5px 10px #e41010;
 }
 
-.clasesdrive {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.clasesdrive .menu2 {
-  background-color: rgb(201, 34, 34);
-  border: #ffffff 2px solid;
-  display: inline;
-  margin-bottom: 20px;
-  margin-right: 3px;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 350px;
-  height: 90px;
-  font-size: 22px;
-  font-weight: bolder;
-  text-align: center;
-}
-.clasesdrive .menu2:hover {
-  transition: background-color 0.1s;
-  box-shadow: 5px 5px 10px #e41010;
-}
-
 .fotosuiama {
   height: 7rem;
   width: 9rem;
@@ -275,11 +251,6 @@ table td {
   margin-left: 4%;
   margin-bottom: 4%;
   justify-content: center;
-}
-
-.carousel,
-.carousel-item > .item > img {
-  text-align: center;
 }
 
 .carousel,
