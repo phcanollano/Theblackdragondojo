@@ -246,7 +246,7 @@ table {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
+
     .menu2 {
         background-color: $ColorSecundario;
         border: #ffffff 2px solid;
@@ -268,10 +268,6 @@ table {
     }
 }
 
-
-
-
-
 .fotosuiama {
     height: 7rem;
     width: 9rem;
@@ -285,6 +281,13 @@ table {
 .carousel,
 .carousel-item>.item>img {
     text-align: center;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
 }
 
 .form {
@@ -364,13 +367,19 @@ table {
 
 .map {
     text-align: center;
-    margin-top: 60px;
-}
+    margin-top: 30px;
 
+    .tamaño {
+        border: 5px rgb(255, 255, 255) solid;
+        width: 600px;
+        height: 280px;
+    }
+}
 
 .p1 {
     text-align: center;
 }
+
 
 
 
@@ -393,7 +402,7 @@ table {
     }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 800px) {
 
     .menu,
     menu {
@@ -446,8 +455,8 @@ table {
 
             .perfil,
             perfil {
-                width: 70px;
-                height: 70px;
+                width: 90px;
+                height: 90px;
                 border-radius: 70px;
                 border: 1px solid white;
                 float: left;
@@ -465,7 +474,6 @@ table {
         justify-content: center;
         align-items: center;
     }
-
 
     .model {
         margin-top: 3%;
@@ -501,21 +509,49 @@ table {
     table {
         display: block;
         overflow-x: auto;
-          
+
         td {
             font-size: 20px;
         }
-      }
- 
+    }
+
+    .clasesdrive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        .menu2 {
+            background-color: $ColorSecundario;
+            border: #ffffff 2px solid;
+            display: inline;
+            margin-bottom: 20px;
+            margin-top: 50px;
+            margin-right: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 250px;
+            height: 80px;
+            font-size: 20px;
+            font-weight: bolder;
+            text-align: center;
+    
+            &:hover {
+                transition: background-color 0.1s;
+                box-shadow: 5px 5px 10px #e41010;
+            }
+        }
+    }
+
     .fotosuiama,
     fotosuiama {
         display: none;
     }
 
-    .tamaño,
-    tamaño {
-        height: 80%;
-        width: 80%;
+    .contacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .form,
@@ -585,7 +621,18 @@ table {
         border: 2px solid #131313;
     }
 
-   
+    .map {
+        text-align: center;
+        margin-top: 30px;
+
+        .tamaño {
+            border: 5px rgb(255, 255, 255) solid;
+            width: 290px;
+            height: 280px;
+        }
+    }
+
+
 
     .menufooter,
     menufooter {
@@ -596,10 +643,10 @@ table {
     p {
         color: rgb(255, 255, 254);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 2%;
         margin-bottom: 2%;
-        text-align: justify;
+
     }
 
     .uiama {
@@ -616,7 +663,7 @@ table {
         margin-top: 4%;
         margin-bottom: 3%;
         text-align: center;
-        font-size: 33px;
+        font-size: 25px;
     }
 
     .texto1 {
