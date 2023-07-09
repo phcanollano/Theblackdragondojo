@@ -382,6 +382,10 @@ a {
 }
 
 @media (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
   .btn {
     font-style: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 15px;
@@ -531,6 +535,22 @@ a {
   }
   .clasesdrive .menu2:hover {
     transition: background-color 0.1s;
+    box-shadow: 5px 5px 10px #e41010;
+  }
+  .menu3 {
+    background-color: rgb(201, 34, 34);
+    border: #ffffff 2px solid;
+    display: inline;
+    margin-right: 3px;
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .menu3:hover {
+    transition: background-color 0.1s;
+    background-color: rgb(0, 0, 0);
     box-shadow: 5px 5px 10px #e41010;
   }
   .fotosuiama,
