@@ -382,15 +382,11 @@ a {
 }
 
 @media only screen and (max-width: 576px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
   .btn {
     font-style: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 15px;
   }
-  .btn:hover:hover {
+  .btn:hover {
     transition: background-color 0.1s;
     background-color: red;
     box-shadow: 5px 5px 10px #b62828;
@@ -403,7 +399,6 @@ a {
   .dropdown-item {
     font-style: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 15px;
-    color: white;
   }
   .flex1,
   flex1 {
@@ -419,10 +414,6 @@ a {
     width: 350px;
     height: 260px;
     margin: 10px;
-    text-align: center;
-    background-color: rgb(201, 34, 34);
-    border: 1px solid white;
-    box-shadow: -1px -1px 4px 0.5px #ffffff;
   }
   .flex1 .boxindex,
   .flex1 boxindex,
@@ -430,8 +421,6 @@ a {
   flex1 boxindex {
     height: 200px;
     width: 300px;
-    margin-top: 10px;
-    margin-right: 5px;
   }
   .boxopiniones1,
   boxopiniones1 {
@@ -444,14 +433,8 @@ a {
   .boxopiniones1 opiniones,
   boxopiniones1 .opiniones,
   boxopiniones1 opiniones {
-    margin-top: 3%;
-    margin-left: 1%;
-    margin-bottom: 5%;
     width: 350px;
     height: 130px;
-    background-color: rgb(201, 34, 34);
-    border: 1px solid white;
-    box-shadow: -1px -1px 4px 0.5px #ffffff;
   }
   .boxopiniones1 .opiniones .perfil,
   .boxopiniones1 .opiniones perfil,
@@ -463,12 +446,6 @@ a {
   boxopiniones1 opiniones perfil {
     width: 90px;
     height: 90px;
-    border-radius: 70px;
-    border: 1px solid white;
-    float: left;
-    margin-right: 3%;
-    margin-top: 2%;
-    margin-left: 2%;
   }
   .flex2,
   flex2 {
@@ -478,33 +455,13 @@ a {
     align-items: center;
   }
   .model {
-    margin-top: 3%;
-    margin-left: 100px;
-    margin-bottom: 10%;
     width: 200px;
     height: 220px;
-    text-align: center;
-    background-color: rgb(201, 34, 34);
-    border: 1px solid white;
-    box-shadow: -1px -1px 4px 0.5px #ffffff;
-  }
-  .txttienda {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-right: 2%;
-    margin-left: 2%;
   }
   .lugar,
   lugar {
-    border: 1px solid white;
-    margin-left: 3%;
-    margin-top: 4%;
     width: 250px;
     height: 250px;
-    align-items: center;
   }
   table {
     display: block;
@@ -520,42 +477,23 @@ a {
     flex-direction: column;
   }
   .clasesdrive .menu2 {
-    background-color: rgb(201, 34, 34);
-    border: #ffffff 2px solid;
-    display: inline;
-    margin-bottom: 20px;
-    margin-top: 50px;
-    margin-right: 3px;
-    font-family: Arial, Helvetica, sans-serif;
     width: 250px;
     height: 80px;
     font-size: 20px;
-    font-weight: bolder;
-    text-align: center;
   }
   .clasesdrive .menu2:hover {
     transition: background-color 0.1s;
     box-shadow: 5px 5px 10px #e41010;
   }
   .menu3 {
-    background-color: rgb(201, 34, 34);
-    border: #ffffff 2px solid;
-    display: inline;
-    margin-right: 3px;
     font-size: 15px;
-    text-align: center;
     width: 200px;
     height: 30px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .menu3:hover {
     transition: background-color 0.1s;
     background-color: rgb(0, 0, 0);
     box-shadow: 5px 5px 10px #e41010;
-  }
-  .fotosuiama,
-  fotosuiama {
-    display: none;
   }
   .contacto {
     display: flex;
@@ -565,39 +503,13 @@ a {
   }
   .form,
   form {
-    text-align: center;
     width: 250px;
     padding: 20px;
-    margin: auto;
-    background-color: rgb(201, 34, 34);
-    border: 1px solid white;
-    box-shadow: -1px -1px 4px 0.5px #ffffff;
-  }
-  .form1,
-  form1 {
-    color: rgb(2, 2, 2);
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-right: 2%;
-    margin-left: 2%;
-  }
-  .txtform,
-  txtform {
-    background-color: #ad2d2d;
-    border: #ffffff 2px solid;
-    display: inline;
-    margin-right: 10px;
   }
   .consulta,
   consulta {
     width: 100%;
     height: 100px;
-    border: 1px solid #f6f6f6;
-    background-color: #f6f6f6;
-    margin: 8px 0;
-    resize: none;
-    display: block;
   }
   .input,
   input {
@@ -606,8 +518,6 @@ a {
   .button, .enviar, .cancelar {
     width: 80px;
     height: 30px;
-    text-align: center;
-    border: 3px solid rgb(255, 255, 255);
     font-size: 15px;
   }
   .enviar {
@@ -635,30 +545,17 @@ a {
   }
   .p,
   p {
-    color: rgb(255, 255, 254);
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 20px;
-    margin-top: 2%;
-    margin-bottom: 2%;
   }
   .uiama {
     width: 350px;
     height: 200px;
-    text-align: center;
   }
   .h1,
   h1 {
-    color: rgb(255, 255, 255);
-    font-style: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-weight: bold;
-    margin-top: 4%;
-    margin-bottom: 3%;
-    text-align: center;
-    font-size: 25px;
+    font-size: 35px;
   }
   .texto1 {
-    margin: 50px;
-    text-align: center;
     font-size: 20px;
   }
 }

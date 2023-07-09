@@ -26,16 +26,17 @@ $FuenteTexto: 20px;
     background-color: $ColorSecundario;
     font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
+
     &:hover {
         &:hover {
             transition: background-color 0.1s;
             background-color: red;
-            box-shadow: 5px 5px 10px #b62828;  
+            box-shadow: 5px 5px 10px #b62828;
         }
     }
 }
 
-.guante{
+.guante {
     width: 20px;
     height: 20px;
     margin-top: -3px;
@@ -267,22 +268,22 @@ table {
 }
 
 .menu3 {
-        background-color: $ColorSecundario;
-        border: #ffffff 2px solid;
-        display: inline;
-        margin-right: 3px;
-        font-size: 15px;
-        text-align: center;
-        width: 200px;
-        height: 30px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: $ColorSecundario;
+    border: #ffffff 2px solid;
+    display: inline;
+    margin-right: 3px;
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-        &:hover {
-            transition: background-color 0.1s;
-            background-color: $ColorPrincipal;
-            box-shadow: 5px 5px 10px #e41010;
-        }
+    &:hover {
+        transition: background-color 0.1s;
+        background-color: $ColorPrincipal;
+        box-shadow: 5px 5px 10px #e41010;
     }
+}
 
 .fotosuiama {
     height: 7rem;
@@ -425,36 +426,27 @@ a {
 }
 
 @media only screen and (max-width: 576px) {
-    
 
-    *{
-        margin: 0;
-        padding: 0;
-    }
+    .btn {
+        font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
 
-    
-.btn {
-    font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-    &:hover {
         &:hover {
             transition: background-color 0.1s;
             background-color: red;
-            box-shadow: 5px 5px 10px #b62828;  
+            box-shadow: 5px 5px 10px #b62828;
         }
     }
-}
 
-.guante{
-    width: 15px;
-    height: 15px;
-    margin-top: -3px;
-}
+    .guante {
+        width: 15px;
+        height: 15px;
+        margin-top: -3px;
+    }
 
     .dropdown-item {
         font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 15px;
-        color: white;
     }
 
     .flex1,
@@ -469,16 +461,13 @@ a {
             width: 350px;
             height: 260px;
             margin: 10px;
-            text-align: center;
-            @include background-flex;
         }
 
         .boxindex,
         boxindex {
             height: 200px;
             width: 300px;
-            margin-top: 10px;
-            margin-right: 5px;
+
         }
     }
 
@@ -491,23 +480,13 @@ a {
 
         .opiniones,
         opiniones {
-            margin-top: 3%;
-            margin-left: 1%;
-            margin-bottom: 5%;
             width: 350px;
             height: 130px;
-            @include background-flex;
 
             .perfil,
             perfil {
                 width: 90px;
                 height: 90px;
-                border-radius: 70px;
-                border: 1px solid white;
-                float: left;
-                margin-right: 3%;
-                margin-top: 2%;
-                margin-left: 2%;
             }
         }
     }
@@ -521,34 +500,14 @@ a {
     }
 
     .model {
-        margin-top: 3%;
-        margin-left: 100px;
-        margin-bottom: 10%;
         width: 200px;
-        height: 220px;
-        text-align: center;
-        @include background-flex;
-    }
-
-    .txttienda {
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-right: 2%;
-        margin-left: 2%;
+        height: 220px;       
     }
 
     .lugar,
     lugar {
-        border: 1px solid white;
-        margin-left: 3%;
-        margin-top: 4%;
         width: 250px;
-        height: 250px;
-        align-items: center;
-
+        height: 250px;    
     }
 
     table {
@@ -560,7 +519,7 @@ a {
         }
     }
 
-   
+
 
     .clasesdrive {
         display: flex;
@@ -569,19 +528,9 @@ a {
         flex-direction: column;
 
         .menu2 {
-            background-color: $ColorSecundario;
-            border: #ffffff 2px solid;
-            display: inline;
-            margin-bottom: 20px;
-            margin-top: 50px;
-            margin-right: 3px;
-            font-family: Arial, Helvetica, sans-serif;
             width: 250px;
             height: 80px;
             font-size: 20px;
-            font-weight: bolder;
-            text-align: center;
-
             &:hover {
                 transition: background-color 0.1s;
                 box-shadow: 5px 5px 10px #e41010;
@@ -590,16 +539,9 @@ a {
     }
 
     .menu3 {
-        background-color: $ColorSecundario;
-        border: #ffffff 2px solid;
-        display: inline;
-        margin-right: 3px;
         font-size: 15px;
-        text-align: center;
         width: 200px;
         height: 30px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
         &:hover {
             transition: background-color 0.1s;
             background-color: $ColorPrincipal;
@@ -607,11 +549,7 @@ a {
         }
     }
 
-    .fotosuiama,
-    fotosuiama {
-        display: none;
-    }
-
+  
     .contacto {
         display: flex;
         justify-content: center;
@@ -621,41 +559,14 @@ a {
 
     .form,
     form {
-        text-align: center;
         width: 250px;
         padding: 20px;
-        margin: auto;
-        @include background-flex;
-    }
-
-
-    .form1,
-    form1 {
-        color: rgb(2, 2, 2);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-right: 2%;
-        margin-left: 2%;
-    }
-
-    .txtform,
-    txtform {
-        background-color: #ad2d2d;
-        border: #ffffff 2px solid;
-        display: inline;
-        margin-right: 10px;
     }
 
     .consulta,
     consulta {
         width: 100%;
         height: 100px;
-        border: 1px solid #f6f6f6;
-        background-color: #f6f6f6;
-        margin: 8px 0;
-        resize: none;
-        display: block;
     }
 
     .input,
@@ -666,8 +577,6 @@ a {
     .button {
         width: 80px;
         height: 30px;
-        text-align: center;
-        border: 3px solid rgb(255, 255, 255);
         font-size: 15px
     }
 
@@ -696,6 +605,7 @@ a {
             height: 280px;
         }
     }
+    
 
 
 
@@ -706,34 +616,21 @@ a {
 
     .p,
     p {
-        color: rgb(255, 255, 254);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 20px;
-        margin-top: 2%;
-        margin-bottom: 2%;
-
     }
 
     .uiama {
         width: 350px;
         height: 200px;
-        text-align: center;
+        
     }
 
     .h1,
     h1 {
-        color: rgb(255, 255, 255);
-        font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-weight: bold;
-        margin-top: 4%;
-        margin-bottom: 3%;
-        text-align: center;
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .texto1 {
-        margin: 50px;
-        text-align: center;
         font-size: 20px;
     }
 }
