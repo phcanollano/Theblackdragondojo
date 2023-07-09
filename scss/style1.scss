@@ -209,7 +209,7 @@ p {
 
         &:hover {
             transition: background-color 0.1s;
-            box-shadow: 5px 5px 10px #b62828;
+            box-shadow: 5px 5px 10px #000000;
         }
     }
 }
@@ -252,19 +252,37 @@ table {
         margin-bottom: 20px;
         margin-top: 50px;
         margin-right: 3px;
-        font-family: Arial, Helvetica, sans-serif;
-        width: 450px;
-        height: 100px;
-        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 60px;
+        font-size: 40px;
         font-weight: bolder;
         text-align: center;
 
         &:hover {
             transition: background-color 0.1s;
+            background-color: $ColorPrincipal;
             box-shadow: 5px 5px 10px #e41010;
         }
     }
 }
+
+.menu3 {
+        background-color: $ColorSecundario;
+        border: #ffffff 2px solid;
+        display: inline;
+        margin-right: 3px;
+        font-size: 15px;
+        text-align: center;
+        width: 200px;
+        height: 30px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        &:hover {
+            transition: background-color 0.1s;
+            background-color: $ColorPrincipal;
+            box-shadow: 5px 5px 10px #e41010;
+        }
+    }
 
 .fotosuiama {
     height: 7rem;
@@ -447,7 +465,6 @@ a {
             margin: 10px;
             text-align: center;
             @include background-flex;
-
         }
 
         .boxindex,
@@ -456,7 +473,6 @@ a {
             width: 300px;
             margin-top: 10px;
             margin-right: 5px;
-
         }
     }
 
@@ -537,6 +553,8 @@ a {
             font-size: 20px;
         }
     }
+
+   
 
     .clasesdrive {
         display: flex;
