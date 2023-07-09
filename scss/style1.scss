@@ -22,44 +22,42 @@ $FuenteTexto: 20px;
     height: 250px;
 }
 
-.logo2{
-    width: 100%;
+.logo2 {
+    width: 99%;
     height: 250px;
-    margin: -15px;
-}
-nav {
-    float: right;
-    margin-right: 50px;
-    padding: 0;
-
-    nav ul {
-        list-style: none;
-        overflow: hidden;
-    }
 }
 
-nav ul {
-    list-style: none;
-    overflow: hidden;
-}
 
-nav ul li {
-    float: left;
+.menu {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
 }
 
-nav ul li a {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li {
     background-color: $ColorSecundario;
-    border: 1px white solid;
+    border: 2px solid #f5f5f5;
+    display: inline;
+    margin-right: 10px;
 
     &:hover {
-        background: $ColorPrincipal;
+        background-color: $ColorPrincipal;
+        transition: background-color 0.1s;
+        box-shadow: 5px 5px 10px #c72424;
     }
+}
+
+a {
+    color: rgb(240, 240, 240);
+    padding: 0 4px;
+    text-decoration: none;
 }
 
 .body,
@@ -406,36 +404,11 @@ table {
 
 @media (max-width: 576px) {
 
-    nav {
-        float: right;
-        margin-right: 50px;
-        padding: 0;
-    
-        nav ul {
-            list-style: none;
-            overflow: hidden;
-        }
-    }
-    
-    nav ul {
-        list-style: none;
-        overflow: hidden;
-    }
-    
-    nav ul li {
-        float: left;
+    .menu,
+    menu {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: small;
     }
-    
-    nav ul li a {
-        display: block;
-        padding: 10px;
-        color: #fff;
-        text-decoration: none;
-        background-color: $ColorSecundario;
-        border: 1px white solid;
-    
 
     .flex1,
     flex1 {
@@ -547,7 +520,7 @@ table {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
+    
         .menu2 {
             background-color: $ColorSecundario;
             border: #ffffff 2px solid;
@@ -561,7 +534,7 @@ table {
             font-size: 20px;
             font-weight: bolder;
             text-align: center;
-
+    
             &:hover {
                 transition: background-color 0.1s;
                 box-shadow: 5px 5px 10px #e41010;
