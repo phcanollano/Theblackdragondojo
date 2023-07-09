@@ -10,42 +10,37 @@
   height: 250px;
 }
 
-.logo2 {
-  width: 99%;
-  height: 250px;
-}
-
-.menu {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: x-large;
-}
-
-ul {
-  list-style-type: none;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-li {
+.btn {
   background-color: rgb(201, 34, 34);
-  border: 2px solid #f5f5f5;
-  display: inline;
-  margin-right: 10px;
+  font-style: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
 }
-li:hover {
-  background-color: rgb(0, 0, 0);
+.btn:hover:hover {
   transition: background-color 0.1s;
-  box-shadow: 5px 5px 10px #c72424;
+  background-color: red;
+  box-shadow: 5px 5px 10px #b62828;
 }
 
-a {
-  color: rgb(240, 240, 240);
-  padding: 0 4px;
-  text-decoration: none;
+.guante {
+  width: 20px;
+  height: 20px;
+  margin-top: -3px;
 }
 
-.body,
+.dropdown-menu {
+  background-color: black;
+}
+.dropdown-menu .dropdown-item {
+  font-style: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+.dropdown-menu .dropdown-item:hover {
+  transition: backgrond-color 0.1s;
+  background-color: rgb(201, 34, 34);
+  box-shadow: 5px 5px 10px #b62828;
+  text-align: center;
+}
+
 body {
   background-color: rgb(0, 0, 0);
 }
@@ -107,8 +102,8 @@ h1 {
   flex-direction: row;
 }
 .boxopiniones1 .perfil {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 70px;
   border: 1px solid white;
   float: left;
@@ -121,7 +116,7 @@ h1 {
   margin-left: 2%;
   margin-right: 2%;
   width: 550px;
-  height: 90px;
+  height: 110px;
   font-size: large;
   background-color: rgb(201, 34, 34);
   border: 1px solid white;
@@ -266,7 +261,7 @@ table td {
 
 .form {
   text-align: center;
-  width: 310px;
+  width: px;
   padding: 20px;
   margin: auto;
   background-color: rgb(201, 34, 34);
@@ -352,6 +347,12 @@ table td {
   font-weight: bold;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
 .redes {
   text-align: center;
   margin-bottom: 15px;
@@ -364,11 +365,6 @@ table td {
 }
 
 @media (max-width: 576px) {
-  .menu,
-  menu {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: small;
-  }
   .flex1,
   flex1 {
     display: flex;
@@ -412,7 +408,7 @@ table td {
     margin-left: 1%;
     margin-bottom: 5%;
     width: 350px;
-    height: 120px;
+    height: 130px;
     background-color: rgb(201, 34, 34);
     border: 1px solid white;
     box-shadow: -1px -1px 4px 0.5px #ffffff;
