@@ -408,6 +408,31 @@ a {
 
 @media (max-width: 576px) {
 
+    
+.btn {
+    font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    &:hover {
+        &:hover {
+            transition: background-color 0.1s;
+            background-color: red;
+            box-shadow: 5px 5px 10px #b62828;  
+        }
+    }
+}
+
+.guante{
+    width: 15px;
+    height: 15px;
+    margin-top: -3px;
+}
+
+    .dropdown-item {
+        font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        color: white;
+    }
+
     .flex1,
     flex1 {
         display: flex;
