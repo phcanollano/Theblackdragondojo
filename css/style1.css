@@ -375,7 +375,7 @@ a {
   margin-top: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .btn {
     font-style: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 15px;
@@ -446,6 +446,7 @@ a {
   .model {
     width: 200px;
     height: 220px;
+    margin-right: 50px;
   }
   .lugar,
   lugar {
@@ -455,7 +456,6 @@ a {
   table {
     display: block;
     overflow-x: auto;
-    text-align: center;
   }
   table td {
     font-size: 20px;
@@ -496,7 +496,6 @@ a {
   .form,
   form {
     width: 250px;
-    padding: 20px;
   }
   .consulta,
   consulta {
@@ -523,8 +522,8 @@ a {
     border: 2px solid #131313;
   }
   .map {
-    text-align: center;
     margin-top: 30px;
+    margin-right: 24px;
   }
   .map .tamaño {
     border: 5px rgb(255, 255, 255) solid;
