@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 2px blue solid;
 }
 
 .logo {
@@ -375,7 +376,7 @@ a {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
   .btn {
     font-style: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 15px;
@@ -433,8 +434,8 @@ a {
   boxopiniones1 .opiniones perfil,
   boxopiniones1 opiniones .perfil,
   boxopiniones1 opiniones perfil {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
   }
   .flex2,
   flex2 {
@@ -538,8 +539,6 @@ a {
   .p,
   p {
     font-size: 20px;
-    margin-right: 30px;
-    margin: auto;
   }
   .uiama {
     width: 350px;
@@ -548,7 +547,7 @@ a {
   .h1,
   h1 {
     font-size: 35px;
-    margin-right: 30px;
+    text-align: center;
   }
   .texto1 {
     font-size: 20px;

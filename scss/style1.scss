@@ -7,6 +7,7 @@ $FuenteTexto: 20px;
 * {
     margin: 0;
     padding: 0;
+    border: 2px blue solid;
 }
 
 
@@ -419,7 +420,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
 
     .btn {
         font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -437,6 +438,7 @@ a {
         font-size: 15px;
     }
 
+ 
     .flex1,
     flex1 {
         display: flex;
@@ -473,8 +475,8 @@ a {
 
             .perfil,
             perfil {
-                width: 90px;
-                height: 90px;
+                width: 100px;
+                height: 100px;
             }
         }
     }
@@ -489,13 +491,13 @@ a {
 
     .model {
         width: 200px;
-        height: 220px;       
+        height: 220px;
     }
 
     .lugar,
     lugar {
         width: 250px;
-        height: 250px;    
+        height: 250px;
     }
 
     table {
@@ -521,6 +523,7 @@ a {
             height: 80px;
             font-size: 20px;
             text-align: center;
+
             &:hover {
                 transition: background-color 0.1s;
                 box-shadow: 5px 5px 10px #e41010;
@@ -533,6 +536,7 @@ a {
         width: 200px;
         height: 30px;
         text-align: center;
+
         &:hover {
             transition: background-color 0.1s;
             background-color: $ColorPrincipal;
@@ -540,7 +544,7 @@ a {
         }
     }
 
-  
+
     .contacto {
         display: flex;
         justify-content: center;
@@ -595,7 +599,7 @@ a {
             height: 280px;
         }
     }
-    
+
     .menufooter,
     menufooter {
         font-size: large;
@@ -604,20 +608,18 @@ a {
     .p,
     p {
         font-size: 20px;
-        margin-right: 30px;
-        margin: auto;
     }
 
     .uiama {
         width: 350px;
         height: 200px;
-        
+
     }
 
     .h1,
     h1 {
         font-size: 35px;
-        margin-right: 30px;
+        text-align: center;
     }
 
     .texto1 {
