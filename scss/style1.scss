@@ -5,8 +5,8 @@ $FuenteTitulo: 60px;
 $FuenteTexto: 20px;
 
 * {
-    margin: 0;
     padding: 0;
+    margin:5px;
 }
 
 
@@ -20,11 +20,13 @@ $FuenteTexto: 20px;
 .logo {
     width: 100%;
     height: 250px;
+    margin: 0;
+    position: relative;
 }
 
 .btn {
     background-color: $ColorSecundario;
-    font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
 
     &:hover {
@@ -40,7 +42,7 @@ $FuenteTexto: 20px;
     background-color: black;
 
     .dropdown-item {
-        font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         ;
         color: white;
 
@@ -61,6 +63,7 @@ body {
 .footer,
 footer {
     background-color: $ColorSecundario;
+    margin: 0 auto;
 }
 
 .derechos,
@@ -70,7 +73,7 @@ derechos {
 
 h1 {
     color: rgb(255, 255, 255);
-    font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 4%;
     margin-bottom: 3%;
     font-size: $FuenteTitulo;
@@ -103,7 +106,7 @@ h1 {
         .pbox {
             text-align: center;
             color: rgb(255, 255, 255);
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 30px;
             font-weight: bold;
 
@@ -141,7 +144,7 @@ h1 {
 
 p {
     color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: $FuenteTexto;
@@ -230,6 +233,7 @@ table {
         border: 2px solid white;
         margin-left: 10px;
         margin-right: 20px;
+        margin: 0;
 
     }
 
@@ -248,7 +252,7 @@ table {
         margin-bottom: 20px;
         margin-top: 50px;
         margin-right: 3px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         height: 60px;
         font-size: 40px;
         font-weight: bolder;
@@ -271,7 +275,7 @@ table {
     text-align: center;
     width: 200px;
     height: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     &:hover {
         transition: background-color 0.1s;
@@ -311,7 +315,7 @@ table {
 
     .form1 {
         color: rgb(2, 2, 2);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-top: 2%;
         margin-bottom: 2%;
         margin-right: 2%;
@@ -620,7 +624,7 @@ a {
         font-size: 15px;
     }
 
- 
+
     .flex1,
     flex1 {
         flex-direction: column;
@@ -675,6 +679,7 @@ a {
     table {
         display: block;
         overflow-x: auto;
+
         td {
             font-size: 20px;
         }
@@ -731,12 +736,12 @@ a {
         height: 30px;
         font-size: 15px
     }
- 
+
 
     .map {
         margin-top: 30px;
         margin-right: 24px;
-        
+
 
         .tamaño {
             width: 350px;
