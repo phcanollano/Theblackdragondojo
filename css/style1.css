@@ -376,7 +376,7 @@ a {
   margin-top: 10px;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 768px) {
   .btn {
     font-size: 30px;
   }
@@ -543,7 +543,7 @@ a {
     margin-right: 25px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 500px) {
   .btn {
     font-size: 15px;
   }
@@ -688,12 +688,12 @@ a {
 @media screen and (max-width: 412px) {
   .h1,
   h1 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
   }
   .p,
   p {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
