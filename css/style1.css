@@ -148,6 +148,7 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   max-height: 100%;
+  justify-content: center;
 }
 .flex2 .tienda {
   margin-top: 3%;
