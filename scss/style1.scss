@@ -4,9 +4,10 @@ $ColorSecundario: rgb(201, 34, 34);
 $FuenteTitulo: 60px;
 $FuenteTexto: 20px;
 
+
 * {
     padding: 0;
-    margin:5px;
+    margin: 3px;
 }
 
 
@@ -18,15 +19,13 @@ $FuenteTexto: 20px;
 }
 
 .logo {
-    width: 100%;
+    width: 98%;
     height: 250px;
-    margin: 0;
-    position: relative;
 }
 
 .btn {
     background-color: $ColorSecundario;
-    font-style: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
 
     &:hover {
@@ -42,8 +41,7 @@ $FuenteTexto: 20px;
     background-color: black;
 
     .dropdown-item {
-        font-style: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        ;
+        font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
 
         &:hover {
@@ -63,7 +61,7 @@ body {
 .footer,
 footer {
     background-color: $ColorSecundario;
-    margin: 0 auto;
+    width: 98%;
 }
 
 .derechos,
@@ -73,7 +71,7 @@ derechos {
 
 h1 {
     color: rgb(255, 255, 255);
-    font-style: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 4%;
     margin-bottom: 3%;
     font-size: $FuenteTitulo;
@@ -106,7 +104,7 @@ h1 {
         .pbox {
             text-align: center;
             color: rgb(255, 255, 255);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 30px;
             font-weight: bold;
 
@@ -144,7 +142,7 @@ h1 {
 
 p {
     color: rgb(255, 255, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: $FuenteTexto;
@@ -217,6 +215,7 @@ p {
     width: 350px;
     height: 400px;
     margin-top: 50px;
+    margin: 0;
 }
 
 table {
@@ -242,8 +241,9 @@ table {
 .clasesdrive {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
 
     .menu2 {
         background-color: $ColorSecundario;
@@ -251,8 +251,8 @@ table {
         display: inline;
         margin-bottom: 20px;
         margin-top: 50px;
-        margin-right: 3px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         height: 60px;
         font-size: 40px;
         font-weight: bolder;
@@ -270,12 +270,12 @@ table {
     background-color: $ColorSecundario;
     border: #ffffff 2px solid;
     display: inline;
-    margin-right: 3px;
+    margin-bottom: 20px;
     font-size: 15px;
     text-align: center;
     width: 200px;
     height: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     &:hover {
         transition: background-color 0.1s;
@@ -297,6 +297,8 @@ table {
 .carousel,
 .carousel-item>.item>img {
     text-align: center;
+    margin-left: 25%;
+    width: 50%;
 }
 
 .contacto {
@@ -315,7 +317,7 @@ table {
 
     .form1 {
         color: rgb(2, 2, 2);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin-top: 2%;
         margin-bottom: 2%;
         margin-right: 2%;
@@ -466,11 +468,12 @@ a {
         .opiniones,
         opiniones {
             width: 420px;
-            height: 170px;
+            height: 190px;
 
             .opiniones,
             p {
                 font-size: 20px;
+                margin-bottom: 5px;
 
             }
 
@@ -510,6 +513,7 @@ a {
     table {
         display: block;
         overflow-x: auto;
+        margin: 15px;
 
         td {
             font-size: 20px;
@@ -522,26 +526,35 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
+        width: 40%;
+        
 
         .menu2 {
-            width: 300px;
+            width: 350px;
             height: 90px;
             font-size: 25px;
-            text-align: center;
+            margin-left: 100%;
         }
-    }
 
-    .menu3 {
-        font-size: 20px;
-        width: 250px;
-        height: 40px;
-        text-align: center;
+        .menu3 {
+            font-size: 20px;
+            width: 250px;
+            height: 40px;
+            margin-left: 100%;
+        }
     }
 
     .texto1 {
         font-size: 35px;
     }
+
+    .carousel,
+.carousel-item>.item>img {
+    text-align: center;
+    width: 50%;
+    margin: 50px;
+}
 
 
     .contacto {
@@ -553,7 +566,8 @@ a {
 
     .form,
     form {
-        width: 500px;
+        width: 350px;
+        margin-right: 40px;
     }
 
 
@@ -573,11 +587,16 @@ a {
     .map {
         margin-top: 30px;
         margin-right: 24px;
+        .map ,p {
+            font-size: 20px;
+            margin-right: 24px;
+        }
 
 
         .tamaño {
-            width: 500px;
+            width: 350px;
             height: 280px;
+            margin-right: 40px;
         }
     }
 
@@ -601,17 +620,15 @@ a {
     h1 {
         font-size: 50px;
         text-align: center;
+        margin-right: 10%;
     }
 
     .texto1 {
         font-size: 20px;
-        margin-right: 70px;
+        margin-left: 5%;
     }
 
-    .carousel,
-    .carousel-item>.item>img {
-        margin-right: 25px;
-    }
+   
 }
 
 @media screen and (max-width: 500px) {
@@ -740,7 +757,7 @@ a {
 
     .map {
         margin-top: 30px;
-        margin-right: 24px;
+        margin-right: 6px;
 
 
         .tamaño {
@@ -772,7 +789,7 @@ a {
 
     .texto1 {
         font-size: 20px;
-        margin-right: 70px;
+        
     }
 }
 
