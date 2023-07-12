@@ -21,6 +21,7 @@ $FuenteTexto: 20px;
 .logo {
     width: 98%;
     height: 250px;
+    overflow: hidden;
 }
 
 .btn {
@@ -119,8 +120,8 @@ h1 {
     flex-direction: row;
 
     .perfil {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         border-radius: 70px;
         border: 1px solid white;
         float: left;
@@ -166,7 +167,8 @@ p {
 .flex2 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 100%;
 
     .tienda {
         margin-top: 3%;
@@ -211,6 +213,11 @@ p {
     }
 }
 
+.col {
+    background-color: red;
+    border: 1px white solid;
+}
+
 .lugar {
     width: 350px;
     height: 400px;
@@ -221,7 +228,7 @@ p {
 table {
     width: 70%;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
     margin: 0 auto;
 
     td {
@@ -235,7 +242,6 @@ table {
         margin: 0;
 
     }
-
 }
 
 .clasesdrive {
@@ -264,25 +270,27 @@ table {
             box-shadow: 5px 5px 10px #e41010;
         }
     }
-}
 
-.menu3 {
-    background-color: $ColorSecundario;
-    border: #ffffff 2px solid;
-    display: inline;
-    margin-bottom: 20px;
-    font-size: 15px;
-    text-align: center;
-    width: 200px;
-    height: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    .menu3 {
+        background-color: $ColorSecundario;
+        border: #ffffff 2px solid;
+        display: inline;
+        margin-bottom: 20px;
+        font-size: 15px;
+        text-align: center;
+        width: 200px;
+        height: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-    &:hover {
-        transition: background-color 0.1s;
-        background-color: $ColorPrincipal;
-        box-shadow: 5px 5px 10px #e41010;
+        &:hover {
+            transition: background-color 0.1s;
+            background-color: $ColorPrincipal;
+            box-shadow: 5px 5px 10px #e41010;
+        }
     }
 }
+
+
 
 .fotosuiama {
     height: 7rem;
@@ -297,8 +305,7 @@ table {
 .carousel,
 .carousel-item>.item>img {
     text-align: center;
-    margin-left: 25%;
-    width: 50%;
+    margin-top: 50px;
 }
 
 .contacto {
@@ -426,7 +433,9 @@ a {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
+
+
 
     .btn {
         font-size: 30px;
@@ -471,13 +480,8 @@ a {
         }
     }
 
-    .flex2,
-    flex2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-right: 100px;
+    .flex2 {
+        margin-left: 5%;
 
         .tienda {
             height: 180px;
@@ -490,134 +494,139 @@ a {
 
     }
 
-    .lugar,
-    lugar {
-        width: 350px;
-        height: 450px;
+
+.lugar,
+lugar {
+    width: 350px;
+    height: 450px;
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+    width: 85%;
+    padding-left: 0;
+    padding-right: 0;
+
+
+    td {
+        font-size: 20px;
     }
-
-    table {
-        display: block;
-        overflow-x: auto;
-        margin_left: 50px;
-
-        td {
-            font-size: 20px;
-        }
-    }
-
-
-
-    .clasesdrive {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 50%;
-        
-
-        .menu2 {
-            width: 350px;
-            height: 90px;
-            font-size: 25px;
-            margin-left: 100%;
-        }
-
-        .menu3 {
-            font-size: 20px;
-            width: 250px;
-            height: 40px;
-            margin-left: 100%;
-        }
-    }
-
-    .texto1 {
-        font-size: 35px;
-    }
-
-    .carousel,
-.carousel-item>.item>img {
-    text-align: center;
-    width: 50%;
-    
 }
 
 
-    .contacto {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
 
-    .form,
-    form {
+.clasesdrive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .menu2 {
         width: 350px;
-        margin-right: 40px;
-    }
-
-
-    .input,
-    input {
-        width: 100%;
-    }
-
-    .button {
-        width: 100px;
-        height: 50px;
-        font-size: 25px
-    }
-
-
-
-    .map {
-        margin-top: 30px;
-        margin-right: 24px;
-        .map ,p {
-            font-size: 20px;
-            margin-right: 24px;
-        }
-
-
-        .tamaño {
-            width: 350px;
-            height: 280px;
-            margin-right: 40px;
-        }
-    }
-
-    .menufooter,
-    menufooter {
-        font-size: large;
-    }
-
-    .p,
-    p {
+        height: 80px;
         font-size: 25px;
     }
 
-    .uiama {
-        width: 500px;
-        height: 300px;
-
-    }
-
-    .h1,
-    h1 {
-        font-size: 50px;
-        text-align: center;
-        margin-right: 10%;
-    }
-
-    .texto1 {
+    .menu3 {
         font-size: 20px;
-        margin-left: 5%;
+        width: 250px;
+        height: 40px;
     }
-
-   
 }
 
+.texto1 {
+    font-size: 35px;
+}
+
+
+
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form,
+form {
+    width: 350px;
+    margin-right: 40px;
+}
+
+
+.input,
+input {
+    width: 100%;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    font-size: 25px
+}
+
+
+
+.map {
+    margin-top: 30px;
+    margin-right: 24px;
+
+    .map,
+    p {
+        font-size: 20px;
+        margin-right: 24px;
+    }
+
+
+    .tamaño {
+        width: 350px;
+        height: 280px;
+        margin-right: 40px;
+    }
+}
+
+.menufooter,
+menufooter {
+    font-size: large;
+}
+
+.p,
+p {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.uiama {
+    width: 500px;
+    height: 300px;
+
+}
+
+.h1,
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-right: 10%;
+    width: 95%;
+
+}
+
+.texto1 {
+    font-size: 20px;
+    margin-left: 5%;
+    width: 80%;
+
+}
+
+}
+
+
 @media screen and (max-width: 500px) {
+
+
 
     .btn {
         font-size: 15px;
@@ -634,15 +643,15 @@ a {
 
         .box,
         box {
-            width: 350px;
-            height: 260px;
+            width: 300px;
+            height: 200px;
             margin: 10px;
         }
 
         .boxindex,
         boxindex {
-            height: 200px;
-            width: 300px;
+            height: 150px;
+            width: 250px;
         }
     }
 
@@ -720,7 +729,7 @@ a {
 
     .form,
     form {
-        width: 350px;
+        width: 300px;
     }
 
     .consulta,
@@ -743,11 +752,10 @@ a {
 
     .map {
         margin-top: 30px;
-        margin-right: 6px;
 
 
         .tamaño {
-            width: 350px;
+            width: 250px;
             height: 280px;
         }
     }
@@ -763,7 +771,7 @@ a {
     }
 
     .uiama {
-        width: 350px;
+        width: 260px;
         height: 200px;
 
     }
@@ -775,7 +783,7 @@ a {
 
     .texto1 {
         font-size: 20px;
-        
+
     }
 }
 
