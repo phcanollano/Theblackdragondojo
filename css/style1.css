@@ -2,7 +2,7 @@
 /*variables*/
 * {
   padding: 0;
-  margin: 3px;
+  margin: 0;
 }
 
 .logo {
@@ -393,36 +393,21 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-  }
-  .flex1 .box,
-  .flex1 box,
-  flex1 .box,
-  flex1 box {
-    width: 250px;
-    height: 200px;
-    margin: 10px;
-  }
-  .flex1 .boxindex,
-  .flex1 boxindex,
-  flex1 .boxindex,
-  flex1 boxindex {
-    height: 150px;
-    width: 200px;
+    flex-direction: column;
   }
   .boxopiniones1,
   boxopiniones1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
   }
   .boxopiniones1 .opiniones,
   .boxopiniones1 opiniones,
   boxopiniones1 .opiniones,
   boxopiniones1 opiniones {
-    width: 420px;
-    height: 190px;
+    width: 500px;
+    height: 150px;
   }
   .boxopiniones1 .opiniones .opiniones,
   .boxopiniones1 .opiniones p,
@@ -471,7 +456,7 @@ a {
   table {
     display: block;
     overflow-x: auto;
-    margin: 15px;
+    margin_left: 50px;
   }
   table td {
     font-size: 20px;
@@ -480,8 +465,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    width: 40%;
+    flex-direction: column;
+    width: 50%;
   }
   .clasesdrive .menu2 {
     width: 350px;
@@ -502,7 +487,6 @@ a {
   .carousel-item > .item > img {
     text-align: center;
     width: 50%;
-    margin: 50px;
   }
   .contacto {
     display: flex;

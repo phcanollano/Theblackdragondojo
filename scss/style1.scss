@@ -7,7 +7,7 @@ $FuenteTexto: 20px;
 
 * {
     padding: 0;
-    margin: 3px;
+    margin: 0;
 }
 
 
@@ -441,21 +441,7 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
-
-        .box,
-        box {
-            width: 250px;
-            height: 200px;
-            margin: 10px;
-        }
-
-        .boxindex,
-        boxindex {
-            height: 150px;
-            width: 200px;
-
-        }
+        flex-direction: column;
     }
 
     .boxopiniones1,
@@ -463,12 +449,12 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
 
         .opiniones,
         opiniones {
-            width: 420px;
-            height: 190px;
+            width: 500px;
+            height: 150px;
 
             .opiniones,
             p {
@@ -513,7 +499,7 @@ a {
     table {
         display: block;
         overflow-x: auto;
-        margin: 15px;
+        margin_left: 50px;
 
         td {
             font-size: 20px;
@@ -526,8 +512,8 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
-        width: 40%;
+        flex-direction: column;
+        width: 50%;
         
 
         .menu2 {
@@ -553,7 +539,7 @@ a {
 .carousel-item>.item>img {
     text-align: center;
     width: 50%;
-    margin: 50px;
+    
 }
 
 
